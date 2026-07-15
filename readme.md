@@ -8,7 +8,10 @@
 
 
 # prisma migrate
-`npx prisma migrate`
+`npx prisma migrate dev --name "change message"`
+
+# prisma migrate for production
+`npx prisma deploy`
 
 
 # prisma generate
